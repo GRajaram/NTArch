@@ -12,7 +12,7 @@ Availability
  
 Will the system be available when the business needs it?
  
-What happens if there is a hardware error? Is the system designed to run on multiple nodes? What happens if a node fails? What happens if a node has intermittent failures? What happens if there is a network outage?  What happens if there are a high number of network errors?  What happens if there is a network partition? What happens if the network becomes very slow? Can the system continue to run in the case of a failure of a single data centre Can the system continue to run in the case of a failure of multiple data centres? Is a late response as bad as no response?
+Is the system designed to run on multiple nodes? What happens if a node fails? What happens if a node has intermittent failures? What happens if there is a network outage?  What happens if there are a high number of network errors?  What happens if there is a network partition? What happens if the network becomes very slow? Can the system continue to run in the case of a failure of a single data centre Can the system continue to run in the case of a failure of multiple data centres? Is a late response as bad as no response?
  
 Serviceability
  
