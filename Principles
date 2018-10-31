@@ -1,0 +1,21 @@
+Principles
+ 
+The Architectural Principles are the values that underpin the design of our systems. They help us evaluate the correctness of an architecture and influence our common practices.
+ 
+Reliability
+ 
+Will the system behave in a way that is appropriately correct for the business?
+ 
+Can data be corrupted? Is late data as bad as corrupted data?  How does the system detect errors? How does the system recover from errors? Is data backed up? Is the system resilient to bad input? Can the system detect intermittent or permanent errors in other systems it uses? Can it continue to behave correctly in these circumstances? Is there a way to disable the system if it starts to produce incorrect results? Does this happen automatically?
+ 
+Availability
+ 
+Will the system be available when the business needs it?
+ 
+What happens if there is a hardware error? Is the system designed to run on multiple nodes? What happens if a node fails? What happens if a node has intermittent failures? What happens if there is a network outage?  What happens if there are a high number of network errors?  What happens if there is a network partition? What happens if the network becomes very slow? Can the system continue to run in the case of a failure of a single data centre Can the system continue to run in the case of a failure of multiple data centres? Is a late response as bad as no response?
+ 
+Serviceability
+ 
+Can the system be operated and maintained in production?
+ 
+Can the system be monitored? Does the system alert when appropriate?  Does the system record errors?  Does the system generate appropriate metrics? How would you identify and debug a problem in production? Can the system be easily updated or patched? How difficult is it to deploy a new version of the system? Can a small piece of the system be updated in isolation from the rest? Is there downtime when the system is being maintained? Can the system easily be restored to a known good state?
